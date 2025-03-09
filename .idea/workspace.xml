@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc33a9e2-fcf9-43fe-8fa6-c8bc4b8adc9c" name="Changes" comment="Created Employee class as an abstract class for abstraction">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="bc33a9e2-fcf9-43fe-8fa6-c8bc4b8adc9c" name="Changes" comment="Created FullTimeEmployee and PartTimeEmployee classes for employees and extend both of them from Employee class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,11 +73,20 @@
       <option name="project" value="LOCAL" />
       <updated>1741551665296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created FullTimeEmployee and PartTimeEmployee classes for employees and extend both of them from Employee class">
+      <option name="closed" value="true" />
+      <created>1741553162094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741553162094</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Employee class as an abstract class for abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Employee class as an abstract class for abstraction" />
+    <MESSAGE value="Created FullTimeEmployee and PartTimeEmployee classes for employees and extend both of them from Employee class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created FullTimeEmployee and PartTimeEmployee classes for employees and extend both of them from Employee class" />
   </component>
 </project>

@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 abstract class Employee{
     private String name;
     private int id;
@@ -54,6 +57,12 @@ class  PartTimeEmployee extends Employee{
         return  hoursWork * hourlyRate;
     }
 }
+
+class PayrollSystem{
+    private ArrayList<Employee> employeeList ;
+
+}
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
