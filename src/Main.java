@@ -23,8 +23,8 @@ abstract class Employee{
 
     @Override
     public String toString() {
-        String s = "Employee{" + "name='" + name + '\'' + ", id=" + id + ",salary = \"calculateSalary()+\"}";
-        return s;
+//        String s = "Employee{" + "name='" + name + '\'' + ", id=" + id + ",salary = \"calculateSalary()+\"}";
+//        return s;
     }
 }
 class FullTimeEmployee extends Employee  {
@@ -61,6 +61,12 @@ class  PartTimeEmployee extends Employee{
 class PayrollSystem{
     private ArrayList<Employee> employeeList ;
 
+    public PayrollSystem(){
+        employeeList = new ArrayList<>();
+    }
+    public void addEmployee(Employee employee){
+        employeeList.add(employee);
+    }
 }
 
 public class Main {
