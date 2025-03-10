@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+//to practice abstraction
+// show only nessesary code to the user.
+
 abstract class Employee{
     private String name;
     private int id;
@@ -16,11 +19,14 @@ abstract class Employee{
     }
 
     public int getId(){
+//        user can get value of id
         return id;
     }
 
     abstract double calculateSalary();
 
+//    can return perticular value in string with toString method.
+//    generate perticular value in string or convert value to string.
     @Override
     public String toString() {
         return "Employee{" + "name='" + name + '\'' + ", id=" + id + ", salary = "+calculateSalary()+"}";
@@ -37,6 +43,7 @@ class FullTimeEmployee extends Employee  {
 
     @Override
     public double calculateSalary(){
+//        polymorphism implemented
         return  MonthlySalary;
     }
 
@@ -59,6 +66,7 @@ class  PartTimeEmployee extends Employee{
 }
 
 class PayrollSystem{
+//
     private ArrayList<Employee> employeeList ;
 
     public PayrollSystem(){
@@ -103,11 +111,11 @@ public class Main {
         payrollSystem.addEmployee(emp1);
         payrollSystem.addEmployee(emp2);
 
-        System.out.println("Initial employee details : ");
+        System.out.println("\nInitial employee details : ");
         payrollSystem.displayEmployee();
-        System.out.println("Removing Employees :");
+        System.out.println("\nRemoving Employees :");
         payrollSystem.removeEmployee(2);
-        System.out.println("Remaining Employee Display");
+        System.out.println("\nRemaining Employee Display");
         payrollSystem.displayEmployee();
     }
 }
